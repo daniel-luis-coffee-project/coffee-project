@@ -42,7 +42,11 @@
     float: left;
     height: 70px;
 }
-
+.centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 ul{
     float: left;
     display: flex;
