@@ -1,3 +1,6 @@
+(function() {
+    "use strict";
+
 function renderCoffee(coffee) {
     var div = document.createElement('div');
     div.classList.add('col-sm-6', 'col-md-4', 'col-lg-3'); // Add bootstrap column classes to div
@@ -43,8 +46,6 @@ function updateCoffees(e) {
     renderCoffees(filteredCoffees);
 }
 
-
-// dont write past this
 
 function addCoffee(e) {
     e.preventDefault();
@@ -97,3 +98,4 @@ roastSelection.addEventListener('input', updateCoffees);
 addCoffeeButton.addEventListener('click', addCoffee);
 
 renderCoffees(coffees);
+})();

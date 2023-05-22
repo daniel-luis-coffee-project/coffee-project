@@ -10,7 +10,6 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("../img/falling-coffee.jpeg");
     background-position: center;
     background-size: cover;
-    /*height: 100vh;*/
     min-height: 100vh;
 }
 
@@ -287,16 +286,4 @@ ul li a:hover{
 .container label {
     color: #ff7200;
 }
-/*table {*/
-/*    border-collapse: collapse;*/
-/*    margin: 15px 0;*/
-/*}*/
 
-/*td, th {*/
-/*    border: 1px solid black;*/
-/*    padding: 5px 10px;*/
-/*}*/
-
-/*.submit-btn {*/
-/*    width: 100%;*/
-/*}*/
